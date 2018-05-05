@@ -1,4 +1,0 @@
-<h1>Footer goes here</h1>
-
-</body>
-</html>
