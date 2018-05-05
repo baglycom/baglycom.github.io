@@ -1,0 +1,341 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*MY MENU CODE*/
+
+
+body {
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.mainwrapper {
+     margin-left:auto;
+    margin-right:auto;
+}
+
+li.headerMenu{
+    display: inline-block;
+}
+
+ul.headerMenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:  #da9283 ;
+    position: sticky;
+    top: 0;
+    display: block;
+}
+
+li {
+	float: left;
+}
+
+
+
+li a {
+	display: block;
+    color: white;
+    font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+
+header .headerMenu ul li a:hover {
+	border-bottom-color: #ccc;
+}
+
+
+header .menu-logo {
+    z-index: 1;
+}
+
+
+#searchBar {
+	border: 2px solid  #da9283 ;
+    margin: 0 auto;
+    position: sticky;
+	font-size: 14px;
+	padding: 10px;
+	outline: none;
+	height: 10px;
+	width: 250px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+#locationBar {
+	border: 2px solid  #da9283 ;
+    margin: 0 auto;
+    position: sticky;
+	font-size: 14px;
+	padding: 10px;
+	outline: none;
+	height: 10px;
+	width: 250px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+#searchBtn {
+	border: 0;
+    margin: 0 auto;
+	font-size: 14px;
+	padding: 5px;
+	width: 14%;
+	background:  #da9283 ;
+	color: black;
+    font-weight: bold;
+	cursor: pointer;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.eventContainer {
+
+	margin: auto;
+	left: 25%;
+	width: 900px;
+	height: auto;
+	padding: 50px;
+}
+
+.eventBox {
+	padding-bottom: 30px;
+	width: 95%;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#searchcontainer {
+  text-align: center;
+margin: auto;
+    left: 25%;
+    width: 900px;
+
+    padding: 300px;
+
+}
+
+
+
+/*LOGIN STYLE*/
+
+
+
+header .nav-login{
+    float: right;
+    text-decoration: none;
+}
+
+header .nav-login form{
+    float: left;
+    padding-top: 15px
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    border: 2px solid  #da9283 ;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header .nav-login form input:hover {  
+    background-color: #ccc;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color:  #da9283 ;
+    font-size: 14px;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header .nav-login form button:hover {  
+    background-color: #ccc;
+}
+
+header .nav-login a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: #fff;
+    font-size: 14px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+
+.main-container{ 
+    padding-top: 40px;
+
+}
+
+.main-container {
+
+}
+
+
+/* SIGN UP */
+
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-top: 10px;
+    border: none;
+    background-color:  #da9283 ;
+    font-size: 14px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color:  #da9283 ;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #ccc;
+}
